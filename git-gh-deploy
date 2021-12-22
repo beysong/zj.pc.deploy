@@ -4,6 +4,6 @@ then
   echo "Which folder do you want to deploy to GitHub Pages?"
   exit 1
 fi
-git add dist -f
+git add dist1 -f
 git commit -m "dist deploy" --no-verify
 git subtree push --prefix $1 origin gh-pages
